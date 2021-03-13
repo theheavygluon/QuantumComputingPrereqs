@@ -1,0 +1,2 @@
+# QuantumComputingSeries
+The purpose of this project is to explain quantum information theory, using both theory and some mild application, to a beginner who has little to no experience with the field. Very little pre-requisites are required and I am very confident that any ambitious highschooler can complete this text. The initial form of this series will be in a set of Jupyter notebooks that will eventually be turned into an e-book/video series. 
