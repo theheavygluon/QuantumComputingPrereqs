@@ -6,6 +6,6 @@ The purpose of this project is to explain quantum information theory using both 
 For the Python implementations, the following modules will be necessary:
 
 - Numpy (for linear algebra and math in general)
-- QPy (an in-house numerical numerical quantum mechanics solver). It comes with the repository
+- QPy (an in-house numerical quantum mechanics solver). It comes with the repository
 - Qiskit (a multi-purpose quantum computing framework that will be used for all QC stuff)
 - QSim (a basic quantum simulator that we're going to build in the later chapters)
