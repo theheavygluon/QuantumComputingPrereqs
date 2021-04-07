@@ -9,3 +9,9 @@ For the Python implementations, the following modules will be necessary:
 - QPy (an in-house numerical quantum mechanics solver). It comes with the repository
 - Qiskit (a multi-purpose quantum computing framework that will be used for all QC stuff)
 - QSim (a basic quantum simulator that we're going to build in the later chapters)
+
+
+# State of the Project
+
+
+This project is not my main priority at the moment and will be worked on only when I am free. For this reason, it would be reasonable to expect a 1-2 month timeframe for completion
