@@ -7,6 +7,9 @@ from QPy import Plotter as QPlot
 from QPy import tise
 from QPy import psiTools as psi 
 
+
+
+
 #QSolve feature example: Solving f = (KE + phi)/h for KE = 6000, phi = 5000 
 print(QSolve.photoelectric.frequency(6000,5000))
 

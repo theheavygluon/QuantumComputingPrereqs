@@ -483,12 +483,12 @@ class psiTools():
             exp = quad(lambda x: abs((a**2)*np.conj(psi(x))*derivative(lambda x:-HBAR*psi(x)*1j)), lBound, rBound)
             return exp[0]
             
-            def sigma(psi, lBound = -inf, rBound = inf):
-                a = psiTools.normalize(psi, lBound, rBound)
-                expX = quad(lambda x: (a**2)*np.conj(psi(x))**derivative(lambda x:-HBAR*psi(x)*1j), lBound, rBound)
-                expX2 = quad(lambda x: (a**2)*np.conj(psi(x))*(x**4)**derivative(lambda x:-HBAR*(psi(x)**2)*1j), lBound, rBound)
-                var = expX2[0] - expX[0]**2
-                return sqrt(var)
+        def sigma(psi, lBound = -inf, rBound = inf):
+            a = psiTools.normalize(psi, lBound, rBound)
+            expX = quad(lambda x: (a**2)*np.conj(psi(x))**derivative(lambda x:-HBAR*psi(x)*1j), lBound, rBound)
+            expX2 = quad(lambda x: (a**2)*np.conj(psi(x))*(x**4)**derivative(lambda x:-HBAR*(psi(x)**2)*1j), lBound, rBound)
+            var = expX2[0] - expX[0]**2
+            return sqrt(var)
 
     class p():
         
@@ -497,10 +497,10 @@ class psiTools():
             exp = quad(lambda x: abs((a**2)*np.conj(psi(x))*derivative(lambda x:-HBAR*psi(x)*1j)), lBound, rBound)
             return exp[0]
             
-            def sigma(psi, lBound = -inf, rBound = inf):
-                a = psiTools.normalize(psi, lBound, rBound)
-                expX = quad(lambda x: (a**2)*np.conj(psi(x))**derivative(lambda x:-HBAR*psi(x)*1j), lBound, rBound)
-                expX2 = quad(lambda x: (a**2)*np.conj(psi(x))*(x**4)**derivative(lambda x:-HBAR*(psi(x)**2)*1j), lBound, rBound)
-                var = expX2[0] - expX[0]**2
-                return sqrt(var)
+        def sigma(psi, lBound = -inf, rBound = inf):
+            a = psiTools.normalize(psi, lBound, rBound)
+            expX = quad(lambda x: (a**2)*np.conj(psi(x))**derivative(lambda x:-HBAR*psi(x)*1j), lBound, rBound)
+            expX2 = quad(lambda x: (a**2)*np.conj(psi(x))*(x**4)**derivative(lambda x:-HBAR*(psi(x)**2)*1j), lBound, rBound)
+            var = expX2[0] - expX[0]**2
+            return sqrt(var)
 
