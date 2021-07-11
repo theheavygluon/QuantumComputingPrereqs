@@ -8,7 +8,7 @@ For the Python implementations, the following modules will be necessary:
 - Numpy (for linear algebra and math in general)
 - Qiskit (a multi-purpose quantum computing framework that will be used for all QC stuff)
 - SymPy (includes tools that will be used for stuff like matrix visualization)
-- QPy (an in-house numerical quantum mechanics solver). It comes with the repository
+- QPy (a basic numerical quantum mechanics solver I made). It comes with the repository
 
 
 
