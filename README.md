@@ -14,5 +14,4 @@ For the Python implementations, the following modules will be necessary:
 
 # State of the Project
 
-
-This project is not my main priority at the moment and will be worked on only when I am free. For this reason, it would be reasonable to expect a 1-2 month timeframe for completion
+The first three chapters of this text has been used for a Quantum Computing school my colleagues and I ran over the summer (see <a href="https://github.com/The-Eigensolvers/TEQS">the TEQS repo<\a>). Apart from re-writing Chapter 4 and making it focused on The 4 reduced postulates of QM, I have no interest in working further on this for the foreseeable future. 
